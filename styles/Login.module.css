@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: #0B132B;
+}
+.orDiv{
+  display: flex;
+  width: 500px;
+  margin-right: 5vw;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: Montserrat;
+}

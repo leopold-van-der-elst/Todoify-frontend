@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+.username{
+    margin: 0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+.line{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 10vw;
+    height: 2px;
+    background-color: #5BC0BE;
+}
+.btn{
+    align-self: flex-start;
+    font-family: Montserrat;
+    color: #5BC0BE;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: transparent;
+    border: none;
+}
+.topContent{
+    display: flex;
+}
