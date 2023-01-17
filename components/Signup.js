@@ -19,7 +19,7 @@ function Signup() {
 
 
     const handleSendInfo = () => {
-        fetch('http://localhost:3000/users/signup', {
+        fetch('https://task-app-backend.vercel.app/users/signup', {
           method: 'POST',
           headers: {
             'Accept': 'application/json',

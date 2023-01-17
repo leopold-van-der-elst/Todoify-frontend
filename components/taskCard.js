@@ -19,7 +19,7 @@ function taskCard(props) {
     const dispatch = useDispatch()
 
     const handleReplaceName = (name) => {
-      fetch(`http://localhost:3000/tasks/updatename/${props.id}`, {
+      fetch(`https://task-app-backend.vercel.app/tasks/updatename/${props.id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -31,7 +31,7 @@ function taskCard(props) {
       })
     }
     const handleReplaceDescription = (description) => {
-      fetch(`http://localhost:3000/tasks/updatedescription/${props.id}`, {
+      fetch(`https://task-app-backend.vercel.app/tasks/updatedescription/${props.id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -43,7 +43,7 @@ function taskCard(props) {
       })
     }
     const handleReplacePriority = (priority) => {
-      fetch(`http://localhost:3000/tasks/updatepriority/${props.id}`, {
+      fetch(`https://task-app-backend.vercel.app/tasks/updatepriority/${props.id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
@@ -57,7 +57,7 @@ function taskCard(props) {
 
 
     const handleDeleteTask = () => {
-      fetch(`http://localhost:3000/tasks/delete`, {
+      fetch(`https://task-app-backend.vercel.app/tasks/delete`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

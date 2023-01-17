@@ -18,7 +18,7 @@ function Mid() {
 
   useEffect(() => {
     console.log(token)
-    fetch(`http://localhost:3000/tasks/${token}`)
+    fetch(`https://task-app-backend.vercel.app/tasks/${token}`)
     .then(res => res.json())
     .then(data => {
       setTasksData(data)

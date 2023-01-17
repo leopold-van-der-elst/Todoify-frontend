@@ -18,7 +18,7 @@ const token = useSelector((state) => state.user.token)
 
 
 const createTask = () => {
-  fetch(`http://localhost:3000/tasks/add`, {
+  fetch(`https://task-app-backend.vercel.app/tasks/add`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
