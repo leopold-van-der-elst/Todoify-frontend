@@ -5,18 +5,20 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { useRouter } from 'next/router';
 import { useDispatch } from 'react-redux';
-import {  setUsername } from '../reducers/user';
+import { setConnectionStatus } from '../reducers/user';
+import { setToken } from '../reducers/user';
 
 function Profile() {
     
     const dispatch = useDispatch()
     const username = useSelector((state) => state.user.username)
+    const status = useSelector((state) => state.user.isLogged)
     const router = useRouter();
-
     const handleLogout = () => {
-        router.push('/')
-        dispatch(setUsername(null))
+        dispatch(setConnectionStatus())
+        dispatch(setToken(""))
     }
+    console.log(username)
 
   return (
     <div className={styles.container}>

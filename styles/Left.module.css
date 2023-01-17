@@ -1,5 +1,78 @@
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
+    background-color: #0B132B;
+    width: 28%;
+}
+.top{
+    margin-top: 5%;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.mid{
+    margin-top: 5%;
+    display: flex;
+    margin-left: 20%;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.bot{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20%;
+    width: 100%;
+}
+.bottom{
+    margin-top: 15%;
+    height: 10%;
+}
+.priority{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.inputName {
+    width: 80%;
+    background-color: transparent;
+    border: 2px solid #5BC0BE;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px; 
+    padding-top: 7px;
+    height: 40px;
+}
+.inputDescription {
+    height: 150px;
+    width: 80%;
+    background-color: transparent;
+    border: 2px solid #5BC0BE;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 16px;
+      padding-top: 7px; 
+}
+.textLength{
+    color: #fff;
+}
+.slider{
+    width: 80%;
+    height: 1px;
+}
+
+.priorityTitle{
+    color: #fff;
+}
+.createButton{
+    background-color: #5BC0BE;
+    border: none;
+}
+.title {
+    color: #fff;
 }

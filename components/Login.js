@@ -6,9 +6,9 @@ import Signin from '../components/Signin';
 
 function Login() {
   return (
-    <div className={styles.container}>
+   <div className={styles.container}>
       <Head>
-        <title>Home App</title>
+        <title>Taskify</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -16,11 +16,16 @@ function Login() {
           rel="stylesheet"
         />
       </Head>
+      <div className={styles.leftContainer}>
+
+      </div>
+       <div className={styles.rightContainer}>
       <Signup/>
       <div className={styles.orDiv}>
         <h2 className={styles.title}>Or</h2>
       </div>
       <Signin />
+    </div>
     </div>
   )
 }
