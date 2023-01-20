@@ -16,8 +16,12 @@ function Login() {
           rel="stylesheet"
         />
       </Head>
+      <div className={styles.modale}>
+        <div class="modale-content">
+        <p style={{fontSize: "28px", color: "white", height: "400px", margin: "30px", textAlign: "center", lineHeight: "40px"}}>Veuillez utiliser un écran plus large pour accéder à cette application web.😁</p>
+        </div>
+    </div>
       <div className={styles.leftContainer}>
-
       </div>
        <div className={styles.rightContainer}>
       <Signup/>
