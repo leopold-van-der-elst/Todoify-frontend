@@ -18,7 +18,7 @@ function Login() {
       </Head>
       <div className={styles.modale}>
         <div class="modale-content">
-        <p style={{fontSize: "28px", color: "white", height: "400px", margin: "30px", textAlign: "center", lineHeight: "40px"}}>Please use a larger screen to access this web application 😁.😁</p>
+        <p style={{fontSize: "28px", color: "white", height: "400px", margin: "30px", textAlign: "center", lineHeight: "40px"}}>Please use a larger screen to access this web application.😁</p>
         </div>
     </div>
       <div className={styles.leftContainer}>
