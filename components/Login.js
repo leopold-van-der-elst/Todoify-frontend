@@ -8,7 +8,7 @@ function Login() {
   return (
    <div className={styles.container}>
       <Head>
-        <title>Taskify</title>
+        <title>Todoify</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -18,7 +18,7 @@ function Login() {
       </Head>
       <div className={styles.modale}>
         <div class="modale-content">
-        <p style={{fontSize: "28px", color: "white", height: "400px", margin: "30px", textAlign: "center", lineHeight: "40px"}}>Veuillez utiliser un écran plus large pour accéder à cette application web.😁</p>
+        <p style={{fontSize: "28px", color: "white", height: "400px", margin: "30px", textAlign: "center", lineHeight: "40px"}}>Please use a larger screen to access this web application 😁.😁</p>
         </div>
     </div>
       <div className={styles.leftContainer}>
